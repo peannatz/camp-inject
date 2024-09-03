@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Greeting Page</title>
+    <link th:href="@{css/style.css}" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <h1>Welcome to the Barcamp Dependency Injection Demo</h1>
+</header>
+<section th:if="${!name.equals('ERROR')}">
+    <p th:text="'Hello, ' + ${name} + '!'"></p>
+</section>
+<section th:else>
+    <p>This page should display Hello World, please check the Code</p>
+</section>
+</body>
+</html>
