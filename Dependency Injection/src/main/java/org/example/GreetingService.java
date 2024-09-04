@@ -1,9 +1,9 @@
-package org.example.dependency_injection.service;
+package org.example;
 
 import org.springframework.stereotype.Service;
 
 @Service
-public class HelloWorldService {
+public class GreetingService {
 
     public String greet(String name) {
         return "Hello, " + name + "!";
