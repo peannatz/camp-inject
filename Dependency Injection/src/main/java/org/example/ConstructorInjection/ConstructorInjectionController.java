@@ -8,8 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConstructorInjectionController {
 
-    //TODO: Insert HelloWorldService here
-    //@Autowired
     private final GreetingService greetingService;
 
     public ConstructorInjectionController(GreetingService greetingService){
