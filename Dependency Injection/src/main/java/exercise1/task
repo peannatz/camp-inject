@@ -5,3 +5,9 @@ The FileLogger class should write the message to a file.
 Create a userService that has a method that receives a logger and a message and calls the log method of the logger.
 Use Constructor Injection to inject the logger into the class.
 Possibly demonstrate how you can add different loggers without changing the userservice code.
+
+
+DO NOT USE A FRAMEWORK FOR THIS EXERCISE
+
+for writing to a file you can use the typical java.io.FileWriter
+
