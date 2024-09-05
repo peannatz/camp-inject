@@ -1,4 +1,5 @@
-Do the first exercise, but this time use the springboot framework to inject the logger into the userService class.
+Please implement a PasswordValidator class that has a method validate(String password) that returns a boolean.
+The method should return true if the password is at least 8 characters long and contains at least one number.
+The method should return false otherwise.
 
-You can observe how that works in the example shown previously.
-Note what springboot does for you, and what you have to do yourself.
+Inject the PasswordValidator into a method in the UserService class and use it to validate a password.
