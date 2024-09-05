@@ -1,0 +1,7 @@
+Create an interface logger, that has a method log(String message).
+Create two classes that implement the logger interface: ConsoleLogger and FileLogger.
+The ConsoleLogger class should print the message to the console.
+The FileLogger class should write the message to a file.
+Create a userService that has a method that receives a logger and a message and calls the log method of the logger.
+Use Constructor Injection to inject the logger into the class.
+Possibly demonstrate how you can add different loggers without changing the userservice code.
