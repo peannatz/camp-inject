@@ -1,0 +1,4 @@
+Do the first exercise, but this time use the springboot framework to inject the logger into the userService class.
+
+You can observe how that works in the example shown previously.
+Note what springboot does for you, and what you have to do yourself.
